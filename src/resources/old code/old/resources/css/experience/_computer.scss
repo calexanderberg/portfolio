@@ -1,0 +1,261 @@
+@import url("https://use.typekit.net/zim4oin.css");
+
+
+@media only screen and (min-width: 1600px) {
+    *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'futura-pt', sans-serif;
+    }
+
+    /* Header & Banner */
+
+    .headBan {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* _banner */
+
+    .banner {
+        height: 100%;
+        width: 100%;
+        background: url(../../../images/background.jpg
+        ) no-repeat top center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10vw;
+        z-index: -10;
+        position: fixed;
+
+        .title {
+            width: 500px;
+            position: relative;
+            color: rgba(0, 174, 255, 1);
+            font-weight: 500;
+            font-size: 2rem;
+            text-transform: uppercase;
+            text-align: left;
+            margin-right: 30%;
+
+            h4 {
+                font-size: 1.5rem;
+                font-weight: 400
+            }
+        }
+    }
+
+    /* header */
+
+    .header{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 60px;
+        width: calc(100vw - (100vw - 100%));
+        padding: 0 10vw;
+        color: rgba(0, 174, 255, 1);
+        z-index: 12;
+        transition: .4s ease-in-out;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            text-transform: uppercase;
+        }
+
+        img  {
+            width: 75px;
+            height: 50px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        
+
+            .nav-link {
+            transition: 
+                opacity .4s ease-in-out,
+                transform .6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+                a {
+                    margin: .2rem;
+                    padding: 1rem .5rem;
+                }
+                a:hover {
+                    opacity: 0.5;
+                    transition: opacity ease-in-out .3s;
+                }
+            }
+        }
+
+        .menu-icon {
+            position: relative;
+            padding: 26px 10px;
+            cursor: pointer;
+            z-index: 1;
+            display: none;
+
+            &_line {
+                display: block;
+                position: relative;
+                background: black;
+                height: 2px;
+                width: 20px;
+                border-radius: 4px;
+                transition: background .8s ease;
+
+                &::before, &::after {
+                    content: '';
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 4px;
+                    background: black;
+                    transition: background .8s ease;
+                }
+                &::before {
+                    transform: translateY(-5px);
+                }
+                &::after {
+                    transform: translateY(5px);
+                }
+            }
+        }
+        .menu-btn {
+            position: absolute;
+            top: -1000px;
+
+            &:focus ~ .menu-icon {
+                .menu-icon_line {
+                    &::before {
+                        transform: translateY(-7px);
+                    }
+                    &::after {
+                        transform: translateY(7px);
+                    }
+                }
+            }
+        }
+
+        &.scrolled {
+            height: 60px;
+            background:rgba(255, 255, 255, 1);
+            position: fixed;
+
+            .menu-icon {
+                &_line,
+                &_line::before,
+                &_line::after {
+                    background: white;
+                }
+            }
+        }
+    }
+
+    /* Story  section */
+
+    .job {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        padding: 0;
+        width: 1600px;
+        height: 350px;
+
+        .compDesc {
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            height: 53%;
+            min-height: 350px;
+            box-sizing: border-box;
+            padding: 3% 7%;
+            color: rgba(0,0,0,1);
+            background-color: rgb(245, 245, 245);
+
+            .compTime {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 1% 0;
+        
+                h4 {
+                    font-size:20px;
+                }
+        
+                h6 {
+                    font-size:15px;
+                    font-weight: 400;
+                }
+            }               
+
+            .titleDesc {
+                display: flex;
+                flex-direction: column;
+
+                .workDate {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+            }
+
+            h5 {
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+        .picture {
+            width: 50%;
+            height: 100%;
+            min-height: 350px;
+            object-fit: cover;
+            background: rgba(200, 200, 200, 1);
+        }
+    }
+
+    /* Contact section */
+
+
+       footer {
+        background-color: rgba(12, 35, 64, 1);
+        color: rgb(255, 255, 255);
+        margin: 0;
+        padding: 0;
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 3% 0;
+    }
+
+    .swecontact {
+        margin: 0 50px;
+        text-align: center;
+    }
+
+    .uscontact {
+        margin: 0 50px;
+        text-align: center;
+    }
+
+    #email {
+        text-align: center;
+        padding-bottom: 1%;
+    }
+
+}
