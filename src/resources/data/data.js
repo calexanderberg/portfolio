@@ -158,6 +158,18 @@ export const biography = {
 };
 
 export const experience = {
+  SEB: {
+    place: `SEB`,
+    title: `FX support`,
+    location: `Stockholm, Sweden`,
+    time: `November 2021 -`
+  }, 
+  KTHBCI: {
+    place: `KTH BCI`,
+    title: `Chairman of the board`,
+    location: `Stockholm, Sweden`,
+    time: `August 2021 -`
+  }, 
   REDO: {
     place: `RE-DO consulting`,
     title: `Founder`,
@@ -170,24 +182,12 @@ export const experience = {
     location: `Eskilstuna, Sweden`,
     time: `June 2021 - September 2021`
   },
-  Campiello: {
-    place: `Campiello Ristorante & Bar`,
-    title: `Waiter`,
-    location: `Naples, Florida`,
-    time: `January 2020 - March 2020`
-  },
   CUT: {
     place: `CUT by Wolfgang Puck at 45 Park Lane`,
     title: `Chef de Rang`,
     location: `London, United Kingdom`,
     time: `Feburary 2019 - October 2019`
-  },
-  BäddBad: {
-    place: `Bädd & Bad`,
-    title: `Sales & Administrator`,
-    location: `Helsingborg, Sweden`,
-    time: `July 2018 - December 2018`
-  } 
+  }
 }
 
 export const education = {
