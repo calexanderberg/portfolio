@@ -10,6 +10,7 @@ import old_portfolio from '../images/old_portfolio.png';
 import pong_game from '../images/pong_game.png';
 import redo_picture from '../images/redo_logo.jpg';
 import stockholm from '../images/stockholm.png';
+import bci from '../images/bci.jpg';
                              
 export const work_Types = {
   redo: {
@@ -155,6 +156,13 @@ export const biography = {
     src: ``,
     picture: stockholm
   },
+  BCI: {
+    date: `2021`,
+    location: `Stockholm, Sweden`,
+    event: `Decided to restart a defunct organization at KTH, to promote, educate, and expand the horizon of blockchain technology and its applications.`,
+    src: ``,
+    picture: bci
+  }
 };
 
 export const experience = {
@@ -168,7 +176,7 @@ export const experience = {
     place: `KTH BCI`,
     title: `Chairman of the board`,
     location: `Stockholm, Sweden`,
-    time: `August 2021 -`
+    time: `September 2021 -`
   }, 
   REDO: {
     place: `RE-DO consulting`,
@@ -200,7 +208,7 @@ export const education = {
   Codecademy: {
     place: `Codecademy`,
     title: `Web developer career path`,
-    location: `Online, off and on`,
+    location: `Online, on and off`,
     time: `2020 -`
   },
   ISH: {
