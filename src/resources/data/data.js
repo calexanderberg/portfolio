@@ -218,3 +218,63 @@ export const education = {
     time: `August 2015 - May 2018`
   }
 }
+
+
+
+
+
+export const schoolProjects = {
+  bugCatcher: {
+    picture: "DH2642",
+    alt: `Screenshot of website`,
+    title: `Bug Catcher`,
+    source: `Interaction Programming and the Dynamic Web`,
+    intro: `A website for catching, loging, and gamifying bug catching.`,
+    date: `December 2021`,
+    path: ``,
+    description: ``
+  },
+  musicSchool: {
+    picture: "IV1351",
+    alt: `Screenshot of Model`,
+    title: `Music School`,
+    source: `Data Storage Paradigms`,
+    intro: `Design, model, and build. A solution for data management and storage.`,
+    date: `November 2021 - January 2022`,
+    path: `https://github.com/calexanderberg/IV1351`,
+    description: ``
+  },
+  pong: {
+    picture: pong_game,
+    alt: `Picture of our ChipKIT playing Pong`,
+    title: `Micro Pong`,
+    source: `Computer Hardware Engineering`,
+    intro: `Limited, advanced, and Fun. A game of pong on a single board computer.`,
+    date: `Feb 2020 - March 2020`,
+    path: `https://github.com/calexanderberg/IS1200`,
+    description: `As part of my Computer Hardware Engineering course, I had to create software that was able to be played on a ChipKIT uc32 board with an I/O shield extension with a team. To get a high grade in this course we had to create a project which our professors deemed to be "advanced". I and my lab partner worked on a game of Pong with working multiplayer and single-player modes. We also added an embedded AI to the game with increasing difficulty and a High Score system based on the number of hits each player successfully delivered. The project was created using the MIPS architecture and the C programming language. The project was given full marks.`
+  },
+  bot: {
+    picture: Chad_bot,
+    alt: `Picture of CHAD.bot`,
+    title: `CHAD.bot`,
+    source: `Engineering Skills`,
+    intro: `Planned, built, coded and delivered a lego Mindstorms delivery bot.`,
+    date: `Sep 2020 - Nov 2020`,
+    path: `https://github.com/calexanderberg/legoRobot`,
+    target: `_blank`,
+    description: "The goal of my Engineering Skills course was to explain the foundation of what it means to be an engineer in the workforce. For this project, we had to write contracts, make a plan and separate the work into multiple sections.  When it came to the actual robot, the goal was to make it deliver a book to a designated target then go from one point to another. The twist was that we had to code this in the C language which I nor my teammates knew how to implement in the Mindstorms architecture. We ended up changing the operating system with ev3dev. The robot ended up being very successful however, the tracks we used ended up sliding quite a bit, so we had to add a function that added extra torque to the wheels to compensate for this. The project was given full marks and has been highlighted to future students because of its unique function."
+  }
+}
+
+const project = {
+  web: {
+
+  },
+  blockchain: {
+
+  },
+  router: {
+
+  }
+}
