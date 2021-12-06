@@ -95,7 +95,7 @@ export default class About extends React.Component {
               Other:
             </p>
             <p className="aboutOtherText">
-              Swedish driver license, barista.
+              Swedish driver license.
             </p>
           </div>
         </div>
