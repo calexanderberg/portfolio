@@ -56,7 +56,7 @@
 
 .contact a:hover {
   cursor: pointer;
-  opacity: 60%;
+  color: grey;
 }
 
 .contact_Intro {
