@@ -5,7 +5,7 @@ import codecademy_picture from '../images/codecademy_logo.png';
 import pong_game from '../images/pong_game.png';
 import Chad_bot from '../images/Chad_bot.jpg';
 
-//import Tomato from '';
+import router from '../images/router.png';
 import old_portfolio from '../images/old_portfolio.png';
 
 import baby from '../images/baby.png';
@@ -82,7 +82,7 @@ export const kthProjects = {
 export const personalProjects = {
   Tomato: {
     website: true,
-    picture: ``,
+    picture: router,
     alt: `Picture of Fresh tomato and router`,
     title: `Fresh Router with FreshTomato`,
     source: `Just for fun`,
