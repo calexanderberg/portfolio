@@ -24,15 +24,13 @@ export default class Codecademy extends React.Component {
         {codecademyProject.map(item =>
           <div className="codecademy">
             <div className="itemPic">
-
+              
             {item.website ? 
-
               <a href={item.path} target={item.target}><img src={item.picture} alt={item.alt} /></a> 
               :
               <button onClick={this.handleClick.bind(this)}>
                 {this.state.random}
                 </button>
-                
             }
             </div>
             <div className="itemInfo">

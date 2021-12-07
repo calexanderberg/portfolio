@@ -1,14 +1,18 @@
-import baby from '../images/baby.png';
-import Chad_bot from '../images/Chad_bot.jpg';
+import redo_picture from '../images/redo_logo.jpg';
+import kth_picture from '../images/kth_Building.jpg';
 import codecademy_picture from '../images/codecademy_logo.png';
+
+import pong_game from '../images/pong_game.png';
+import Chad_bot from '../images/Chad_bot.jpg';
+
+//import Tomato from '';
+import old_portfolio from '../images/old_portfolio.png';
+
+import baby from '../images/baby.png';
+import naples from '../images/marcoIsland.png';
 import helsingborg from '../images/helsingborg.png';
 import ISH from '../images/ISH.png';
-import kth_picture from '../images/kth_Building.jpg';
 import london from '../images/london.png';
-import naples from '../images/marcoIsland.png';
-import old_portfolio from '../images/old_portfolio.png';
-import pong_game from '../images/pong_game.png';
-import redo_picture from '../images/redo_logo.jpg';
 import stockholm from '../images/stockholm.png';
 import bci from '../images/bci.jpg';
                              
@@ -35,13 +39,13 @@ export const work_Types = {
     path: `/kth`,
     target: ``
   },
-  codecademy: {
+  personal: {
     type: `page`,
     picture: codecademy_picture,
     alt: `Codecademy logo`,
-    title: `The Codecademy files`,
-    source: `Codecademy`,
-    intro: `The projects I created as part of my web-development career path at Codecademy`,
+    title: `The Personal files`,
+    source: `For fun`,
+    intro: `The projects I have created on my freetime or as part of my course at Codecademy`,
     date: `June 2020 -`,
     path: `/codecademy`,
     target: ``
@@ -76,18 +80,16 @@ export const kthProjects = {
 }
 
 export const personalProjects = {
-  /*
-  reddit: {
+  Tomato: {
     website: true,
     picture: ``,
-    alt: ``,
-    title: "Reddit Client",
-    source: "Full-Stack Engineer Career Path",
-    intro: ``,
-    date: ``,
-    description: ``
+    alt: `Picture of Fresh tomato and router`,
+    title: `Fresh Router with FreshTomato`,
+    source: `Just for fun`,
+    intro: `More control, more networking, more to learn`,
+    date: `Oct 2021`,
+    description: `After using my ISP's router for about a year I became frustrated with the options and settings that was provided to me. I decided to instead buy a Netgear R7000 router, use my ISP router as a modem, and download tomato (more specifically FreshTomato) to my router to make sure that I got teh control I wanted. Using this Linux distrobution proved to be a challenge as I was unfamiliar with networking, however I was able to presist. I quickly learned different how securities and encryption standards differ, what file sharing protocols exist, and how tor works, among others. As of December 2021 I am running a VPN and FTP server on the router, with plans to try to set up a web server in the future.`
   },
-  */
   portfolio: {
     website: true,
     picture: old_portfolio,
@@ -96,7 +98,7 @@ export const personalProjects = {
     source: `Full-Stack Engineer Career Path`,
     intro: `Virtual CV`,
     date: `Aug 2020`,
-    description: `I created a personal portfolio website, with the purpose of it acting as a place where I can highlight my projects and effectively make it a virtual CV. I created this project when I took their "web development Career path" in August which is why these dates are a bit different from the others, however, I still thought it was a good project to highlight. This page is only alive in the link above. Have a look will ya? I promise you it won't be pretty. `,
+    description: `I created a personal portfolio website, with the purpose of it acting as a place where I can highlight my projects and effectively make it a virtual CV. I created this project when I took their "web development Career path" in August which is why these dates are a bit different from the others, however, I still thought it was a good project to highlight.`,
     path: `https://www.calexanderberg.com/old`,
     target: `_blank`
   },
@@ -219,11 +221,7 @@ export const education = {
   }
 }
 
-
-
-
-
-export const schoolProjects = {
+const schoolProjects = {
   bugCatcher: {
     picture: "DH2642",
     alt: `Screenshot of website`,
