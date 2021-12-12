@@ -30,11 +30,6 @@ export default class Footer extends React.Component {
               </a>
           </div>
           </div>
-  
-          <div className = "footer_Disclaimer">
-            <p>Copyright © 2021. All rights reserved.</p>
-            <p>I do not track or collect any information</p>
-          </div>
         </div>
       </div>
     )
