@@ -88,7 +88,7 @@ export const personalProjects = {
     source: `Just for fun`,
     intro: `More control, more networking, more to learn`,
     date: `Oct 2021`,
-    description: `After using my ISP's router for about a year I became frustrated with the options and settings that was provided to me. I decided to instead buy a Netgear R7000 router, use my ISP router as a modem, and download tomato (more specifically FreshTomato) to my router to make sure that I got teh control I wanted. Using this Linux distrobution proved to be a challenge as I was unfamiliar with networking, however I was able to presist. I quickly learned different how securities and encryption standards differ, what file sharing protocols exist, and how tor works, among others. As of December 2021 I am running a VPN and FTP server on the router, with plans to try to set up a web server in the future.`
+    description: `After using my ISP's router for about a year I became frustrated with the options and settings that was provided to me. I decided to instead buy a Netgear R7000 router, use my ISP router as a modem, and download tomato (more specifically FreshTomato) to my router to make sure that I got the control I wanted. Using this Linux distrobution proved to be a challenge as I was unfamiliar with networking, however I was able to presist. I quickly learned different how securities and encryption standards differ, what file sharing protocols exist, and how tor works, among others. As of December 2021, I am running a VPN and FTP server on the router, with plans to set up a more secure file sharing protocol.`
   },
   portfolio: {
     website: true,
