@@ -4,8 +4,7 @@ import BCI from "../images/kthbci.png";
 import pong_game from "../images/pong_game.png";
 import Chad_bot from "../images/chad_bot.png";
 
-
-//import nft from "";
+import nft from "../images/nft.png";
 import Website from "../images/website.png";
 import router from "../images/router.png";
 
@@ -95,7 +94,7 @@ export const work = {
     title: `The Personal Projects`,
     experience: {
       nft: {
-        picture: "nft",
+        picture: nft,
         alt: `KTH BCI NFT banner`,
         title: `NFT Membership KTH BCI`,
         source: `The KTH Blockchain Initative`,
