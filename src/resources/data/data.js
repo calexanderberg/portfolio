@@ -56,7 +56,8 @@ export const work = {
         path: `https://github.com/calexanderberg/IV1351`,
         description: ``,
       },
-
+      */
+      /*
       bugTracker: {
         picture: "DH2642",
         alt: `Screenshot of website`,
