@@ -100,7 +100,7 @@ export const work = {
         source: `The KTH Blockchain Initative`,
         intro: `Proof of membership in the 21 century`,
         date: `December 2021`,
-        path: ``,
+        path: `https://github.com/calexanderberg/KTH_BCI_NFT`,
         description: ``,
       },
       website: {
