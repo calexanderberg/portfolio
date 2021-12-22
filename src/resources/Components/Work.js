@@ -31,9 +31,9 @@ const experience = (work_type) => {
     else return 4;
   };
 
-  const WorkItem = ({ picture, title, intro, source, date }) => {
+  const WorkItem = ({ picture, title, intro, source, date, path }) => {
     return (
-      <div className="item">
+      <a className="item" href={path} target="_blank">
         <div className="itemPic">
           <img src={picture} />
         </div>
@@ -47,7 +47,7 @@ const experience = (work_type) => {
             <p>{date}</p>
           </div>
         </div>
-      </div>
+      </a>
     );
   };
 
@@ -58,7 +58,7 @@ const experience = (work_type) => {
           <Grid.Column
             width={columbCount(index)}
             key={`item-${item[0]}`}
-            centered
+            className="work-item"
           >
             <WorkItem
               picture={item.picture}
@@ -66,6 +66,7 @@ const experience = (work_type) => {
               intro={item.intro}
               source={item.source}
               date={item.date}
+              path={item.path}
             />
           </Grid.Column>
         );
