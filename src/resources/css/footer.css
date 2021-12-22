@@ -65,7 +65,7 @@
 .footer {
   width: 100%;
   background-color: black;
-  color: white;
+  color: white !important;
   padding-top: 4%;
 }
 
@@ -75,8 +75,9 @@
 }
 
 .footer a:hover {
-  opacity: 0.5;
-  transition: opacity ease-in-out 0.3s;
+  color: white !important;
+  opacity: 0.5 !important;
+  transition: opacity ease-in-out 0.3s !important;
 }
 
 .footer_Content {
