@@ -150,3 +150,9 @@
   color: #005DFF;
   border-bottom: 5px #005DFF solid;
 }
+
+.logo:hover {
+  color: black !important;
+  opacity: 0.5 !important;
+  transition: opacity ease-in-out 0.3s !important;
+}

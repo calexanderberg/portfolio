@@ -17,9 +17,7 @@ export default class Contact extends React.Component {
             <div className="contact_Section_Info ">
             <p>Rosenvägen 30<br></br>254 82 Helsingborg</p>
             <br></br>
-            <br></br>
             <p>Midsommarvägen 10<br></br>126 35 Hägersten</p>
-            <br></br>
             <br></br>
             <a href="tel:+46708128516">+46 708-12 85 16</a>
           </div>
@@ -32,9 +30,7 @@ export default class Contact extends React.Component {
             <div className="contact_Section_Info ">
               <p>3572 Antarctic Circle <br></br>34112 Naples, Florida</p>
               <br></br>
-              <br></br>
               <a href="tel:+18552243287">+1 (855) 224-3287</a>
-              <br></br>
               <br></br>
               <p className="contact_Disclaimer">I am a legal resident of the United States.<br></br>Willing to fly over to the U.S and/or relocate.</p>
             </div>
@@ -46,8 +42,6 @@ export default class Contact extends React.Component {
           </div>
             <div className="contact_Section_Info ">
             <a href="https://www.instagram.com/calexanderberg/" target="_blank">Instagram: @calexanderberg</a>
-            <br></br>
-            <a href="https://www.joinclubhouse.com/@calexanderberg" target="_blank">Clubhouse: @calexanderberg </a>
             <br></br>
             <a href="https://twitter.com/CAlexanderBerg" target="_blank">Twitter: @calexanderberg </a>
             <br></br>

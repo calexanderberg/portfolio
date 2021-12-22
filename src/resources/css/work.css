@@ -1,131 +1,69 @@
-@media screen and (max-width: 670px) {
-  .itemContent {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 5%;
-  }
-  .itemContent .item {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .itemContent .item .itemPic {
-    padding-top: 50px;
-    height: 30vh;
-    width: 100%;
-  }
-  .itemContent .item .itemPic img {
-    height: inherit;
-    width: inherit;
-    object-fit: cover;
-    object-position: center;
-    opacity: 1;
-    transition: opacity ease-in-out 0.3s;
-  }
-  .itemContent .item .itemPic img:hover {
-    opacity: 0.5;
-    transition: opacity ease-in-out 0.3s;
-    cursor: pointer;
-  }
-  .itemContent .item .itemInfo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0;
-    margin-top: 20px;
-    width: 100%;
-    height: 80%;
-  }
-  .itemContent .item .itemInfo .itemInfoLeft {
-    width: 50%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .itemContent .item .itemInfo .itemInfoRight {
-    width: 50%;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .itemContent .item .description {
-    text-align: center;
-    margin: 3% 6%;
-  }
-  .itemContent p {
-    margin: 0;
-  }
-  .itemContent a {
-    width: inherit;
-    height: inherit;
-  }
-  .itemContent .number {
-    display: none;
-  }
+.work {
+  margin: 0 auto !important;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5%;
+  background-color: white;
 }
 
-@media screen and (min-width: 670px) {
-  .itemContent {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 5%;
-    background-color: white;
-  }
-  .itemContent .item {
-    width: 70%;
-    margin: 0 auto;
-  }
-  .itemContent .item .itemPic {
-    padding-top: 50px;
-    height: 50vh;
-    width: 100%;
-  }
-  .itemContent .item .itemPic img {
-    height: inherit;
-    width: inherit;
-    object-fit: cover;
-    object-position: center;
-    opacity: 1;
-    transition: opacity ease-in-out 0.3s;
-  }
-  .itemContent .item .itemPic img:hover {
-    opacity: 0.5;
-    transition: opacity ease-in-out 0.3s;
-    cursor: pointer;
-  }
-  .itemContent .item .itemInfo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0;
-    margin-top: 20px;
-    height: 40px;
-  }
-  .itemContent .item .itemInfo .itemInfoLeft {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .itemContent .item .itemInfo .itemInfoRight {
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .itemContent .item .description {
-    text-align: center;
-    margin: 3% 6%;
-  }
-  .itemContent p {
-    margin: 0;
-  }
-  .itemContent a {
-    width: inherit;
-    height: inherit;
-  }
-  .itemContent .number {
-    display: none;
-  }
+.work p {
+  margin: 0;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 20px !important;
+  text-align: center;
+}
+
+.item {
+  height: auto;
+  max-height: 500px;
+  width: auto;
+  max-width: 500px;
+  transition: all 0.3 ease-in-out;
+  padding: 0 20px;
+}
+
+.item .itemPic img {
+  height: auto;
+  max-height: 450px;
+  width: auto;
+  max-width: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.item .itemInfo {
+  height: 20%;
+}
+
+.item:hover {
+  opacity: 0.7;
+  transition: all 0.3 ease-in-out;
+  cursor: pointer;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
+}
+
+.itemInfoLeft {
+  width: 65%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.itemInfoRight {
+  width: 35%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
