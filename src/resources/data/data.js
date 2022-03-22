@@ -4,6 +4,7 @@ import BCI from "../images/kthbci.png";
 import pong_game from "../images/pong_game.png";
 import Chad_bot from "../images/chad_bot.png";
 
+import proxmox from '../images/proxmox.png';
 import nft from "../images/nft.png";
 import Website from "../images/website.png";
 import router from "../images/router.png";
@@ -94,6 +95,16 @@ export const work = {
   personal: {
     title: `The Personal Projects`,
     experience: {
+      VM: {
+        picture: proxmox,
+        alt: `Proxmox gui`,
+        title: `VM server`,
+        source: `Just for fun`,
+        intro: `Proxmox server and the linux rabbit hole`,
+        date: `October 2021 -`,
+        path: ``,
+        description: ``,
+      },
       nft: {
         picture: nft,
         alt: `KTH BCI NFT banner`,
