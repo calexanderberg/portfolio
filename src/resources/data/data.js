@@ -1,6 +1,7 @@
 import redo_picture from "../images/redo_logo.png";
 import BCI from "../images/kthbci.png";
 
+import II1302 from '../images/II1302.png'
 import IV1351 from "../images/IV1351.png"
 import DH2642 from "../images/DH2642.png"
 import pong_game from "../images/pong_game.png";
@@ -47,6 +48,16 @@ export const work = {
   School: {
     title: `The School Projects`,
     experience: {
+      project: {
+        picture: 'II1302',
+        alt: `Screenshot of Website`,
+        title: `Spafe Monitor`,
+        source: `Projects and Project Methods`,
+        intro: `A website for managing, monitoring, and communicating with a single board computer through the cloud.`,
+        date: `March 2022-`,
+        path: `https://github.com/jonaro00/II1302`,
+        description: ``,
+      },
       musicSchool: {
         picture: IV1351,
         alt: `Screenshot of Model`,
