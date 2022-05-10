@@ -64,7 +64,7 @@ export const work = {
         source: `Interaction Programming and the Dynamic Web`,
         intro: `A website for catching, loging, and gamifying bug catching.`,
         date: `November-December 2021`,
-        path: ``,
+        path: `https://github.com/calexanderberg/DH2642`,
         description: ``,
       },
       pong: {
@@ -96,7 +96,7 @@ export const work = {
       VM: {
         picture: proxmox,
         alt: `Proxmox gui`,
-        title: `HomeLabbing`,
+        title: `Home Lab`,
         source: `Just for fun`,
         intro: `Proxmox, docker, and the linux rabbit hole`,
         date: `October 2021 -`,
