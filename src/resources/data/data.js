@@ -1,11 +1,12 @@
 import redo_picture from "../images/redo_logo.png";
 import BCI from "../images/kthbci.png";
 
+import IV1351 from "../images/IV1351.png"
+import DH2642 from "../images/DH2642.png"
 import pong_game from "../images/pong_game.png";
 import Chad_bot from "../images/chad_bot.png";
 
 import proxmox from '../images/proxmox.png';
-import nft from "../images/nft.png";
 import Website from "../images/website.png";
 import router from "../images/router.png";
 
@@ -46,9 +47,8 @@ export const work = {
   School: {
     title: `The School Projects`,
     experience: {
-      /*
       musicSchool: {
-        picture: "IV1351",
+        picture: IV1351,
         alt: `Screenshot of Model`,
         title: `Music School`,
         source: `Data Storage Paradigms`,
@@ -57,10 +57,8 @@ export const work = {
         path: `https://github.com/calexanderberg/IV1351`,
         description: ``,
       },
-      */
-      /*
       bugTracker: {
-        picture: "DH2642",
+        picture: DH2642,
         alt: `Screenshot of website`,
         title: `Bug Catcher`,
         source: `Interaction Programming and the Dynamic Web`,
@@ -68,7 +66,7 @@ export const work = {
         date: `November-December 2021`,
         path: ``,
         description: ``,
-      },*/
+      },
       pong: {
         picture: pong_game,
         alt: `Picture of our ChipKIT playing Pong`,
@@ -98,21 +96,11 @@ export const work = {
       VM: {
         picture: proxmox,
         alt: `Proxmox gui`,
-        title: `VM server`,
+        title: `HomeLabbing`,
         source: `Just for fun`,
-        intro: `Proxmox server and the linux rabbit hole`,
+        intro: `Proxmox, docker, and the linux rabbit hole`,
         date: `October 2021 -`,
         path: ``,
-        description: ``,
-      },
-      nft: {
-        picture: nft,
-        alt: `KTH BCI NFT banner`,
-        title: `NFT Membership KTH BCI`,
-        source: `The KTH Blockchain Initative`,
-        intro: `Proof of membership in the 21 century`,
-        date: `December 2021`,
-        path: `https://github.com/calexanderberg/KTH_BCI_NFT`,
         description: ``,
       },
       website: {
