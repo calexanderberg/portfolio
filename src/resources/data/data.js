@@ -49,7 +49,7 @@ export const work = {
     title: `The School Projects`,
     experience: {
       project: {
-        picture: 'II1302',
+        picture: II1302,
         alt: `Screenshot of Website`,
         title: `Spafe Monitor`,
         source: `Projects and Project Methods`,
