@@ -1,3 +1,27 @@
+# Personal Portfolio
+## Introduction
+This is the code for my personal portfolio, a CV that I put online at:
+
+https://www.calexanderberg.com
+
+Check it out.
+
+## What technologies were used?
+Javascript, React, HTML, CSS, SASS
+
+## What were the biggest challenges and what did you learn?
+I had no idea how to create a website and am still revisiting the code so I would say almost everything was a challenge.
+
+
+## What are your next step to improve it?
+I want to rewrite the code to follow the model-view-presenter.
+
+
+
+## Note that this text will be removed when I find it appropriate.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
