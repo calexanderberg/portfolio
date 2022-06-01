@@ -1,3 +1,4 @@
+
 import redo_picture from "../images/redo_logo.png";
 import BCI from "../images/kthbci.png";
 
@@ -12,15 +13,7 @@ import proxmox from '../images/proxmox.png';
 import Website from "../images/website.png";
 import router from "../images/router.png";
 
-import baby from "../images/baby.png";
-import naples from "../images/marcoIsland.png";
-import helsingborg from "../images/helsingborg.png";
-import ISH from "../images/ISH.png";
-import london from "../images/london.png";
-import stockholm from "../images/stockholm.png";
-import bci from "../images/bci.jpg";
-
-export const work = {
+const work = {
   professional: {
     title: `Professional Work`,
     experience: {
@@ -148,108 +141,4 @@ export const work = {
   },
 };
 
-export const biography = {
-  birth: {
-    date: `2000`,
-    location: `Helsingborg, Sweden`,
-    event: `Don't remember much of that day, but I was born.`,
-    src: ``,
-    picture: baby,
-  },
-  usa: {
-    date: `2012`,
-    location: `Marco Island, Florida`,
-    event: `After 12 years my family decided to move to Marco Island, Florida. Despite me and my brother not speaking English at the time we managed to make Florida our new home.`,
-    src: ``,
-    picture: naples,
-  },
-  ib: {
-    date: `2016 `,
-    location: `Helsingborg, Sweden`,
-    event: `After moving back and forth we decided to stay in Sweden to focus on the IB, International Baccalaureate, diploma. Graduating in 2018.`,
-    src: ``,
-    picture: ISH,
-  },
-  london: {
-    date: `2019`,
-    location: `London, United Kingdom`,
-    event: `Decided to move to London after graduating. Started working at Wolfgang puck's restaurant on 45 park lane without any prior restaurant experience. Was able to drastically improve my work ethic and customer experience, eventually getting the opportunity to serve guests first hand.`,
-    src: ``,
-    picture: london,
-  },
-  redo: {
-    date: `2020`,
-    location: `Helsingborg, Sweden`,
-    event: `Having taken a career path in web development, I decided to start my consulting firm to help small businesses with their digital image.`,
-    src: ``,
-    picture: helsingborg,
-  },
-  kth: {
-    date: `2020`,
-    location: `Stockholm, Sweden`,
-    event: `Started studying Electronics and Computer Engineering at KTH, Royal Institute Of Technology.`,
-    src: ``,
-    picture: stockholm,
-  },
-  BCI: {
-    date: `2021`,
-    location: `Stockholm, Sweden`,
-    event: `Decided to restart a defunct organization at KTH, to promote, educate, and expand the horizon of blockchain technology and its applications.`,
-    src: ``,
-    picture: bci,
-  },
-};
-
-export const experience = {
-  SEB: {
-    place: `SEB`,
-    title: `FX support`,
-    location: `Stockholm, Sweden`,
-    time: `November 2021 -`,
-  },
-  KTHBCI: {
-    place: `KTH BCI`,
-    title: `Chairman of the board`,
-    location: `Stockholm, Sweden`,
-    time: `September 2021 -`,
-  },
-  REDO: {
-    place: `RE-DO consulting`,
-    title: `Founder`,
-    location: `Stockholm, Sweden`,
-    time: `June 2020 -`,
-  },
-  AWS: {
-    place: `Amazon Web services`,
-    title: `IT support Assoc II intern`,
-    location: `Eskilstuna, Sweden`,
-    time: `June 2021 - September 2021`,
-  },
-  CUT: {
-    place: `CUT by Wolfgang Puck at 45 Park Lane`,
-    title: `Chef de Rang`,
-    location: `London, United Kingdom`,
-    time: `Feburary 2019 - October 2019`,
-  },
-};
-
-export const education = {
-  KTH: {
-    place: `KTH, Royal Institute Of Technology`,
-    title: `Bachelor in Computer Science`,
-    location: `Stockholm, Sweden`,
-    time: `August 2020 -`,
-  },
-  Codecademy: {
-    place: `Codecademy`,
-    title: `Web developer career path`,
-    location: `Online, on and off`,
-    time: `2020 -`,
-  },
-  ISH: {
-    place: `International School Of Helsingborg`,
-    title: `International Baccalaureate (IB)`,
-    location: `Helsingborg, Sweden`,
-    time: `August 2015 - May 2018`,
-  },
-};
+export default work;

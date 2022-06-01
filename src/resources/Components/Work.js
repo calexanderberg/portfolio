@@ -24,7 +24,7 @@ const experience = (work_type) => {
   const columbCount = (index) => {
     if (workItems.length < 3) return 12 / workItems.length;
     else if (
-      workItems.length % 3 != 0 &&
+      workItems.length % 3 !== 0 &&
       index === workItems.length - (workItems.length % 3)
     )
       return 12 / (workItems.length % 3);
