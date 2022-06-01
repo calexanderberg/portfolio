@@ -56,7 +56,7 @@ export const work = {
         source: `Projects and Project Methods`,
         intro: `A website for managing, monitoring, and communicating with a single board computer through the cloud.`,
         date: `March 2022-`,
-        path: `https://github.com/jonaro00/II1302`,
+        path: `https://github.com/calexanderberg/II1302`,
         description: ``,
       },
       musicSchool: {
