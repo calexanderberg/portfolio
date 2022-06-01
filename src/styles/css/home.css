@@ -1,0 +1,28 @@
+@media screen and (max-width: 650px) {
+  .index {
+    height: 55vh;
+  }
+  .index .index_Background {
+    background: url(../images/backgroundMobile.jpeg) bottom;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .index {
+    height: 90vh;
+  }
+  .index .index_Background {
+    background: url(../images/stockholm.png) center;
+  }
+}
+
+.index {
+  width: auto;
+}
+
+.index_Background {
+  height: inherit;
+  width: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

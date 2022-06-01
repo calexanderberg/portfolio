@@ -1,0 +1,158 @@
+@media screen and (max-width: 670px) {
+  .itemContent {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+  }
+  .itemContent .codecademy {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .itemContent .codecademy .itemPic {
+    margin-top: 50px;
+    height: 30vh;
+    width: 100%;
+  }
+  .itemContent .codecademy .itemPic button {
+    height: inherit;
+    width: inherit;
+    object-position: center;
+    padding: 0 10%;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  .itemContent .codecademy .itemPic button button:hover {
+    cursor: pointer;
+    border: none;
+  }
+  .itemContent .codecademy .itemPic button button:active {
+    border-style: outset;
+    border: none;
+  }
+  .itemContent .codecademy .itemPic img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    object-position: center;
+    background-color: black;
+  }
+  .itemContent .codecademy img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.3s;
+    cursor: pointer;
+  }
+  .itemContent .codecademy .itemInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    height: 80%;
+  }
+  .itemContent .codecademy .itemInfo .itemInfoLeft {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .itemContent .codecademy .itemInfo .itemInfoRight {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .itemContent .codecademy .description {
+    text-align: center;
+    margin: 3% 0%;
+  }
+  .itemContent p {
+    margin: 0;
+  }
+  .itemContent a {
+    width: inherit;
+    height: inherit;
+  }
+}
+
+@media screen and (min-width: 670px) {
+  .itemContent {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+  }
+  .itemContent .codecademy {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .itemContent .codecademy .itemPic {
+    margin-top: 50px;
+    height: 50vh;
+    width: 100%;
+  }
+  .itemContent .codecademy .itemPic button {
+    height: inherit;
+    width: inherit;
+    object-position: center;
+    padding: 0 30%;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  .itemContent .codecademy .itemPic button button:hover {
+    cursor: pointer;
+    border: none;
+  }
+  .itemContent .codecademy .itemPic button button:active {
+    border-style: outset;
+    border: none;
+  }
+  .itemContent .codecademy .itemPic img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    object-position: center;
+    background-color: black;
+  }
+  .itemContent .codecademy img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.3s;
+    cursor: pointer;
+  }
+  .itemContent .codecademy .itemInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 20px;
+    height: 40px;
+  }
+  .itemContent .codecademy .itemInfo .itemInfoLeft {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .itemContent .codecademy .itemInfo .itemInfoRight {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .itemContent .codecademy .description {
+    text-align: center;
+    margin: 3% 6%;
+  }
+  .itemContent p {
+    margin: 0;
+  }
+  .itemContent a {
+    width: inherit;
+    height: inherit;
+  }
+}

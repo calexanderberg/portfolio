@@ -1,0 +1,94 @@
+@media screen and (max-width: 600px) {
+  .contact {
+    margin: 10% 0;
+    justify-content: center;
+    height: 100%;
+    line-height: 1.5rem;
+
+
+    .contact_Intro {
+      margin-bottom: 10%;
+    }
+
+    .contact_Section {
+      margin: 0;
+    }
+
+    .contact_Section_Info{
+      width: 50%;
+      margin-bottom: 5%;
+    }
+
+    .contact_Disclaimer {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .contact {
+    margin: 10% auto 5% auto;
+    width: 60%;
+    line-height:1.5rem;
+
+
+    .contact_Intro {
+      margin-bottom: 3%;
+    }
+
+    .contact_Section {
+      margin: 5% 0;
+    }
+
+    .contact_Section_Info{
+      width: 40%;
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: all ease-in-out 0.4;
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:hover{
+    cursor: pointer;
+    color: grey;
+  }
+}
+
+.contact_Intro {
+  text-align: center;
+}
+
+.contact_Sections{
+  width: 100%;
+}
+
+.contact_Section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact_Section_Title {
+  text-align: right;
+  width: 40%;
+}
+
+.contact_Section_Info {
+  align-items: flex-start;
+  text-align: left;
+}
