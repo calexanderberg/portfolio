@@ -14,8 +14,16 @@ I had no idea how to create a website and am still revisiting the code so I woul
 
 
 ## What are your next step to improve it?
-I want to rewrite the code to follow the model-view-presenter. There may be plenty of mockup code which I am using to rewrite the website. Ignore the vast majority of it as currently only the resources folder is the one that shows the code displayed on the website. The others are and will within the coming weeks-months become the main ones.
+1. Rewrite the code to follow the model-view-presenter.
+2. Implement action buttons to allow pull requests to run tests, be built, and others before deployment.
+3. Implement typescript to the code, see II1302 for a project where I used typescript
 
+## Please note:
+I realized after the fact I should have made a new branch for my current project of implementing improvement number 1. This has lead to a very messy repository which I am fixing whenever I have time.
+
+Currently only the resources folder is the one that shows the code displayed on the website. This would most likely be where you want to see my actual code.
+
+Thank you
 
 
 ## Note that this text will be removed when I find it appropriate.
