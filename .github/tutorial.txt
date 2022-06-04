@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=eB0nUzAI7M8
+
+A good video to implement github actions in the future, automated tets and pull requests. Epic
+
+
