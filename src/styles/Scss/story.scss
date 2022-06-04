@@ -1,6 +1,5 @@
-@media screen and (max-width: 600px){
-
-  .story_Section{   
+@media screen and (max-width: 600px) {
+  .story_Section {
     flex-direction: column;
 
     img {
@@ -20,7 +19,7 @@
     flex-direction: row;
 
     .story_Section_Date {
-     margin-right: 1%;
+      margin-right: 1%;
     }
   }
 
@@ -37,7 +36,6 @@
   }
 }
 
-
 @media screen and (min-width: 600px) {
   .story_Section_Left_Head {
     flex-direction: row;
@@ -47,7 +45,7 @@
     flex-direction: row-reverse;
   }
 
-  .story_Section{   
+  .story_Section {
     img {
       width: 50%;
       min-width: 50%;
@@ -102,7 +100,7 @@
   }
 }
 
-.story{
+.story {
   font-weight: 300;
   width: 100%;
   background-color: white;
@@ -113,27 +111,26 @@
   }
 }
 
-
 .story_Intro {
   font-size: 2.5rem;
   padding: 9% 0;
   text-align: center;
 }
 
-.story_Section{   
+.story_Section {
   width: 90%;
   max-width: 1600px;
   margin: 0 auto;
   display: flex;
 }
 
-.story_Question{
+.story_Question {
   font-size: 1.8rem;
   padding: 5% 0 3% 0;
   text-align: center;
 }
 
-.story_Answer{
+.story_Answer {
   font-size: 1.4rem;
   text-align: center;
   padding: 3% 0 8% 0;

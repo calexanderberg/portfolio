@@ -1,15 +1,14 @@
-
 import redo_picture from "../images/redo_logo.png";
 import BCI from "../images/kthbci.png";
 
-import II1302 from '../images/II1302.png'
-import IV1351 from "../images/IV1351.png"
-import DH2642 from "../images/DH2642.png"
+import II1302 from "../images/II1302.png";
+import IV1351 from "../images/IV1351.png";
+import DH2642 from "../images/DH2642.png";
 import pong_game from "../images/pong_game.png";
 import Chad_bot from "../images/chad_bot.png";
 
-import scripts from '../images/scripts.png';
-import proxmox from '../images/proxmox.png';
+import scripts from "../images/scripts.png";
+import proxmox from "../images/proxmox.png";
 import Website from "../images/website.png";
 import router from "../images/router.png";
 
@@ -107,7 +106,7 @@ const work = {
         date: `Feb 2022 -`,
         path: `https://github.com/calexanderberg/scripts`,
         description: ``,
-      }, 
+      },
       VM: {
         picture: proxmox,
         alt: `Proxmox gui`,

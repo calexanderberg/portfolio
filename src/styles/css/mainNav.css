@@ -147,8 +147,8 @@
   height: 90%;
   margin-bottom: 4px;
   transition: all ease-in-out 0.3s;
-  color: #005DFF;
-  border-bottom: 5px #005DFF solid;
+  color: #005dff;
+  border-bottom: 5px #005dff solid;
 }
 
 .logo:hover {

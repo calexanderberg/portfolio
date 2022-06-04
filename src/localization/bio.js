@@ -1,4 +1,3 @@
-
 import baby from "../images/baby.png";
 import naples from "../images/marcoIsland.png";
 import helsingborg from "../images/helsingborg.png";
@@ -6,7 +5,6 @@ import ISH from "../images/ISH.png";
 import london from "../images/london.png";
 import stockholm from "../images/stockholm.png";
 import bci from "../images/bci.jpg";
-
 
 const biography = {
   birth: {

@@ -50,7 +50,7 @@ const experience = {
       location: `Helsingborg, Sweden`,
       time: `August 2015 - May 2018`,
     },
-  }
-}
+  },
+};
 
 export default experience;

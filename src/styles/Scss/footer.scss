@@ -1,14 +1,13 @@
-@media screen and (max-width: 750px), (orientation: portrait){
-
+@media screen and (max-width: 750px), (orientation: portrait) {
   .footer_Main_Content {
     flex-direction: column;
   }
 
-  .footer_Logo{
+  .footer_Logo {
     text-align: center;
   }
 
-  .footer_Contact{
+  .footer_Contact {
     margin: 0 auto;
     text-align: center;
   }
@@ -26,7 +25,6 @@
 }
 
 @media screen and (max-width: 1000px) and (orientation: landscape) {
-
   .footer_Main_Content {
     flex-direction: row;
   }
@@ -52,7 +50,6 @@
 }
 
 @media screen and (min-width: 1000px) and (orientation: landscape) {
-
   .footer_Main_Content {
     flex-direction: row;
   }
@@ -61,10 +58,9 @@
     width: auto;
   }
 
-  .footer_Logo{
-
+  .footer_Logo {
   }
-  
+
   .footer_Medias {
     flex-direction: row;
     font-size: 2rem;
@@ -81,30 +77,29 @@
   }
 }
 
-.footer{
+.footer {
   width: 100%;
   background-color: black;
   color: white !important;
   padding-top: 4%;
 
-  a{
+  a {
     opacity: 1;
     transition: opacity ease-in-out 0.3s;
   }
 
-  a:hover{
+  a:hover {
     color: white !important;
     opacity: 0.5 !important;
     transition: opacity ease-in-out 0.3s !important;
   }
 }
 
-.footer_Content{
-  padding: 
-  1% 2%;
+.footer_Content {
+  padding: 1% 2%;
 }
 
-.footer_Logo{
+.footer_Logo {
   font-weight: 400;
   font-size: 2rem;
   vertical-align: bottom;
@@ -119,24 +114,24 @@
   justify-content: space-between;
 }
 
-.footer_Contact{
+.footer_Contact {
   display: flex;
   flex-direction: column;
 
-  a{
+  a {
     padding-top: 4%;
   }
 }
 
-.footer_Medias{
+.footer_Medias {
   display: flex;
 
-  a{
+  a {
     text-align: center;
   }
 }
 
-.footer_Disclaimer{
+.footer_Disclaimer {
   font-size: 0.8rem;
   color: inherit;
   display: flex;
