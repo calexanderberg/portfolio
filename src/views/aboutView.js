@@ -1,6 +1,5 @@
-import "../css/about.css";
 import { Link } from "react-router-dom";
-import { experience, education } from "../data/data";
+import { experience } from "../localization/experience";
 import ReactPlayer from "react-player";
 
 const AboutView = () => {
@@ -75,7 +74,7 @@ const AboutView = () => {
       </div>
       <div className="aboutEducation">
         <h1 className="aboutTitles">What's your education?</h1>
-        {about_Experience(education)}
+        {/*about_Experience(education) <- Will be fixed later */ }
       </div>
       <div className="aboutOther">
         <h1 className="aboutTitles">Any other information?</h1>
