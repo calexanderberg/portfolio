@@ -14,7 +14,7 @@ I had no idea how to create a website and am still revisiting the code so I woul
 
 
 ## What are your next step to improve it?
-I want to rewrite the code to follow the model-view-presenter.
+I want to rewrite the code to follow the model-view-presenter. There may be plenty of mockup code which I am using to rewrite the website. Ignore the vast majority of it as currently only the resources folder is the one that shows the code displayed on the website. The others are and will within the coming weeks-months become the main ones.
 
 
 
