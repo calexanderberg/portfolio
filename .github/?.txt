@@ -1,3 +1,0 @@
-https://www.youtube.com/watch?v=eB0nUzAI7M8
-
-This video tells you how to add github actions for future additions to yoru website
