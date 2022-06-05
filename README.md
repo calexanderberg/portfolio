@@ -19,11 +19,9 @@ I had no idea how to create a website and am still revisiting the code so I woul
 3. Implement typescript to the code, see II1302 for a project where I used typescript
 
 ## Please note:
-I realized after the fact I should have made a new branch for my current project of implementing improvement number 1. This has lead to a very messy repository which I am fixing whenever I have time.
+I realized after the fact I should have made a new branch for my current project of implementing improvement number 1. This has been moved to the develop branch.
 
-Currently only the resources folder is the one that shows the code displayed on the website. This would most likely be where you want to see my actual code.
-
-Thank you
+The rest of the improvements have been handed their own branches which will merge with develop once implemented properly.
 
 
 ## Note that this text will be removed when I find it appropriate.
