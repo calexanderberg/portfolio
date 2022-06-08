@@ -2,8 +2,6 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { AboutPage, ContactPage, HomePage, StoryPage, WorkPage } from './pages';
 import routes from './localization/routes';
 
-import "./App.css";
-
 function App() {
   return (
     <Routes>
