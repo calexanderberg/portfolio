@@ -17,6 +17,7 @@ I had no idea how to create a website and am still revisiting the code so I woul
 1. Rewrite the code to follow the model-view-presenter.
 2. Implement action buttons to allow pull requests to run tests, be built, and others before deployment.
 3. Implement typescript to the code, see II1302 for a project where I used typescript
+4. Implement NextJS. Something small that can easily be done when the others are done first.
 
 ## Please note:
 I realized after the fact I should have made a new branch for my current project of implementing improvement number 1. This has been moved to the develop branch.
