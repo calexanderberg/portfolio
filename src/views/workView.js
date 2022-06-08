@@ -1,5 +1,4 @@
-import React from "react";
-import { work } from "../data/data";
+import work from "../localization/work";
 import { Grid } from "semantic-ui-react";
 
 const WorkView = () => {

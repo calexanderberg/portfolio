@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { experience } from "../localization/experience";
+import experience from "../localization/experience";
 import ReactPlayer from "react-player";
 
 const AboutView = () => {

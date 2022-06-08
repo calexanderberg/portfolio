@@ -1,8 +1,8 @@
-import { biography } from "../localization/bio";
+import biography from "../localization/bio.js";
 
 const StoryView = () => {
   return (
-    <div>
+    <>
       <body>
         <div className="story">
           <div className="story_Intro">
@@ -25,7 +25,7 @@ const StoryView = () => {
           </div>
         </div>
       </body>
-    </div>
+    </>
   );
 };
 
