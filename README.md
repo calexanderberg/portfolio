@@ -15,7 +15,7 @@ I had no idea how to create a website and am still revisiting the code so I woul
 
 ## What are your next step to improve it?
 1. Rewrite the code to follow the model-view-presenter.
-2. Implement action buttons to allow pull requests to run tests, be built, and others before deployment.
+2. Implement action buttons to allow pull requests to run tests, be built, and others before deployment. (This will require me to change how I deploy my website.
 3. Implement typescript to the code, see II1302 for a project where I used typescript
 4. Implement NextJS. Something small that can easily be done when the others are done first.
 
