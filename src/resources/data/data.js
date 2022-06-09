@@ -107,7 +107,7 @@ export const work = {
     experience: {
       script: {
         picture: scripts,
-        alt: "sceenshot of terminal",
+        alt: "Sceenshot of terminal",
         title: `scripts`,
         source: `Just for fun`,
         intro: `Personal collection of Scripts`,
