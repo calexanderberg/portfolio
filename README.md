@@ -24,6 +24,8 @@ I realized after the fact I should have made a new branch for my current project
 
 The rest of the improvements have been handed their own branches which will merge with develop once implemented properly.
 
+Besides improvement 3 and 4, I realized they would be easy enough to implement as one, they are int he nextjs branch.
+
 
 ## Note that this text will be removed when I find it appropriate.
 
