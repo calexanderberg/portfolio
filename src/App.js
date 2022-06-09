@@ -1,46 +1,17 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import 'semantic-ui-css/semantic.min.css'
-
-import "./App.css";
-
-import Home from "./resources/Components/Home";
-import Story from "./resources/Components/Story";
-import About from "./resources/Components/About";
-import Work from "./resources/Components/Work";
-import Contact from "./resources/Components/Contact";
-import Header from "./resources/Components/Header";
-import Footer from "./resources/Components/Footer";
+import { Routes, Route, Navigate } from "react-router-dom";
+import { AboutPage, ContactPage, HomePage, StoryPage, WorkPage } from './pages';
+import routes from './localization/routes';
 
 function App() {
   return (
-    <div>
-      <Router>
-        <div className="Header">
-          <Header />
-          <div className="content">
-            <Switch>
-              <Route exact path="/">
-                <Home />
-              </Route>
-              <Route path="/story">
-                <Story />
-              </Route>
-              <Route path="/about">
-                <About />
-              </Route>
-              <Route path="/work">
-                <Work />
-              </Route>
-              <Route path="/contact">
-                <Contact />
-              </Route>
-            </Switch>
-          </div>
-        </div>
-      </Router>
-
-      <Footer />
-    </div>
+    <Routes>
+      <Route exact path={routes.ABOUT_PATH} element={<AboutPage />} />
+      <Route exact path={routes.CONTACT_PATH} element={<ContactPage />} />
+      <Route exact path={routes.HOME_PATH} element={<HomePage />} />
+      <Route exact path={routes.STORY_PATH} element={<StoryPage />} />
+      <Route exact path={routes.WORK_PATH} element={<WorkPage />} />
+      <Route path={routes.DEFAULT_PATH} element={<Navigate to={routes.HOME_PATH} />} />
+    </Routes>
   );
 }
 
