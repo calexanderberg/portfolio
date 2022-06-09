@@ -10,7 +10,7 @@ Check it out.
 Javascript, React, HTML, CSS, SASS
 
 ## What were the biggest challenges and what did you learn?
-I had no idea how to create a website and am still revisiting the code so I would say almost everything was a challenge.
+I had no idea how to create a website and to this day I am still revisiting the code, trying to make it better and in the process learning about new technologies, such as NextJS, test-driven development, and typescript etc.
 
 
 ## What are your next step to improve it?
