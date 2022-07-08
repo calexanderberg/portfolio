@@ -23,7 +23,7 @@ export default class About extends React.Component {
         <div className="aboutVideo">
          <ReactPlayer
               className="reactPlayer"
-              url="https://youtu.be/SrvodwXRDeI"
+              url="https://youtu.be/KhWoCHb0qwc"
               width='100%'
               height='100%'
           />
